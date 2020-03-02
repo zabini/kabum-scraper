@@ -11,7 +11,7 @@ class Pagination:
     return self.page_str
 
   def reset(self):
-    self.actual = 30
+    self.actual = 1
     self.build(self.actual)
 
   def build(self,page):
