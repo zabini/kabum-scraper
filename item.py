@@ -14,10 +14,15 @@ class Item:
     cash_price = soup_item.find('div',{'class': 'listagem-precoavista'}).text
     cash_price = re.sub("(R\$)|(\.)|(\,)",'',cash_price).strip()
     cash_price = float(cash_price[:-2] + '.' + cash_price[-2:])
-    
-    price = soup_item.find('div',{'class': 'listagem-preco'}).text
-    price = re.sub("(R\$)|(\.)|(\,)",'',price).strip()
-    price = float(price[:-2] + '.' + price[-2:])
+
+    price_el = soup_item.find('div',{'class': 'listagem-preco'})
+
+    if price_el is not None:
+      price = price_el.text
+      price = re.sub("(R\$)|(\.)|(\,)",'',price).strip()
+      price = float(price[:-2] + '.' + price[-2:])
+    else:
+      price = 0.0
 
     stars = soup_item.find('div',{'class': 'H-estrelas'})
     stars = stars.attrs['class'][1].replace('e','')
@@ -25,7 +30,7 @@ class Item:
 
     rating = soup_item.find('li',{'class': 'notas'})
     rating = rating.text.strip()
-    
+
     link = soup_item.find('h2',{'class':'H-titulo'}).find('a')
 
     evaluation = 0

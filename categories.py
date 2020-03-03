@@ -1,4 +1,4 @@
-import os, json
+import os, json, logging
 from content import Content
 
 class Categories:
@@ -23,4 +23,5 @@ class Categories:
   def iterate(self):
 
     for el in self.data:
+      logging.info('Handling [%s] - base link [%s]' % (el['desc'].center(17),el['link']) )
       rs_handle = self.content.handle(el['desc'],el['link'])
