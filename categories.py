@@ -24,4 +24,4 @@ class Categories:
 
     for el in self.data:
       logging.info('Handling [%s] - base link [%s]' % (el['desc'].center(17),el['link']) )
-      rs_handle = self.content.handle(el['desc'],el['link'])
+      self.content.handle(el['desc'],el['link'])
