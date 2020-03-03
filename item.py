@@ -2,7 +2,7 @@ import re
 
 class Item:
 
-  def scrap(self,soup_item):
+  def scrap(self,soup_item,cat):
 
     img_div = soup_item.find('div', {'class': 'listagem-img'})
     img_a = img_div.find('a')
@@ -32,6 +32,7 @@ class Item:
     el = {
       'code': int(img_a.attrs['data-id']), # Item code
       'title': img_el.attrs['alt'], # Item Title,
+      'category': cat ,
       'img_src': img_el.attrs['src'], # Item img src
       'link': link.attrs['href'], # Item link
       'maker': fab.attrs['alt'].replace('Logo ',''), # Item maker

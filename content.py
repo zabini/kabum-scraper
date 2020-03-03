@@ -13,30 +13,28 @@ class Content:
     self.pagination = Pagination()
     self.item = Item()
 
-  def handle(self, cat, link):
+  def handle(self,cat,link):
 
     self.pagination.reset()
 
     while True:
 
-      logging.info( 'Scraping [%d] page, checking products.' % self.pagination.actual)
+      logging.info( 'Scraping [%s] page, checking products.' % str(self.pagination.actual))
 
       soup_page = BeautifulSoup(self.req(link),'html.parser')
       if self.check_has_products(soup_page) is False:
-        logging.info( 'No more products found in this categorie, going to next.' % self.pagination.actual)
+        logging.info( 'No more products found in this category, going to next.')
         break
 
       elements = self.select_products(soup_page)
 
-      logging.info( 'More products founded on page [%d], scraping them.' % self.pagination.actual)
-      logging.info( 'Total products [%d].' % len(elements))
+      logging.info( 'More products founded on page [%s], scraping them.' % str(self.pagination.actual))
+      logging.info( 'Total products [%s].' % str(len(elements)))
 
-      self.handle_elements(elements)
+      self.handle_elements(elements, cat)
 
       self.pagination.next()
       time.sleep(1)
-
-    return None
 
   def check_has_products(self,page):
 
@@ -66,11 +64,11 @@ class Content:
   def select_products(self,page):
     return page.findAll("section", {"class": "listagem-box"})
 
-  def handle_elements(self, elements):
+  def handle_elements(self,elements,cat):
 
     while len(elements) > 0:
       el = elements.pop(0)
-      scraped_item = self.item.scrap(el)
+      scraped_item = self.item.scrap(el,cat)
 
       if self.products.check_in('code',scraped_item['code']) is not True:
         self.products.append(scraped_item)
