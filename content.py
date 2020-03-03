@@ -21,7 +21,14 @@ class Content:
 
       logging.info( 'Scraping [%s] page, checking products.' % str(self.pagination.actual))
 
-      soup_page = BeautifulSoup(self.req(link),'html.parser')
+      req = self.req(link)
+
+      if req is False:
+        self.pagination.next()
+        time.sleep(1)
+        continue
+
+      soup_page = BeautifulSoup(req,'html.parser')
       if self.check_has_products(soup_page) is False:
         logging.info( 'No more products found in this category, going to next.')
         break
@@ -59,8 +66,7 @@ class Content:
       return self.req(link)
     except requests.exceptions.RequestException as RequestException:
       logging.info('A Request exception ocurred, ending scraping. [status_code=%s]' % req.status_code)
-      time.sleep(30)
-      return self.req(link)
+      return False
 
   def select_products(self,page):
     return page.findAll("section", {"class": "listagem-box"})
