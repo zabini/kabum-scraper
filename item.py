@@ -11,18 +11,9 @@ class Item:
     fab = soup_item.find('li',{'class': 'imagem-fabricante'})
     fab = fab.find('img')
 
-    cash_price = soup_item.find('div',{'class': 'listagem-precoavista'}).text
-    cash_price = re.sub("(R\$)|(\.)|(\,)",'',cash_price).strip()
-    cash_price = float(cash_price[:-2] + '.' + cash_price[-2:])
-
-    price_el = soup_item.find('div',{'class': 'listagem-preco'})
-
-    if price_el is not None:
-      price = price_el.text
-      price = re.sub("(R\$)|(\.)|(\,)",'',price).strip()
-      price = float(price[:-2] + '.' + price[-2:])
-    else:
-      price = 0.0
+    cash_price = self.price_handle(soup_item,'div','listagem-precoavista')
+    price = self.price_handle(soup_item,'div','listagem-preco')
+    mkt_place_low_price = self.price_handle(soup_item,'b','mktplace_preco_menor')
 
     stars = soup_item.find('div',{'class': 'H-estrelas'})
     stars = stars.attrs['class'][1].replace('e','')
@@ -48,6 +39,19 @@ class Item:
       'star': stars, # Item stars
       'price': price, # Cash price
       'cash_price': cash_price, # Cash price
+      'mkt_place_low_price': mkt_place_low_price, # Cash price
     }
 
     return el
+
+  def price_handle(self, soup_item, tag, class_name):
+    price_el = soup_item.find(tag,{'class': class_name})
+
+    if price_el is not None:
+      price = price_el.text
+      price = re.sub("(R\$)|(\.)|(\,)",'',price).strip()
+      price = float(price[:-2] + '.' + price[-2:])
+    else:
+      price = 0.0
+
+    return price
