@@ -59,7 +59,8 @@ class Content:
       return self.req(link)
     except requests.exceptions.RequestException as RequestException:
       logging.info('A Request exception ocurred, ending scraping. [status_code=%s]' % req.status_code)
-      sys.exit()
+      time.sleep(30)
+      return self.req(link)
 
   def select_products(self,page):
     return page.findAll("section", {"class": "listagem-box"})

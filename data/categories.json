@@ -1,118 +1,781 @@
 [
   {
-    "desc": "Hardware",
-    "link": "https://www.kabum.com.br/hardware"
+    "desc": [
+      "hardware",
+      "ssd-2-5"
+    ],
+    "link": "https://www.kabum.com.br/hardware/ssd-2-5"
   },
   {
-    "desc": "Smartphones",
-    "link": "https://www.kabum.com.br/celular-telefone/smartphones"
+    "desc": [
+      "hardware",
+      "controladoras"
+    ],
+    "link": "https://www.kabum.com.br/hardware/controladoras"
   },
   {
-    "desc": "Periféricos",
-    "link": "https://www.kabum.com.br/perifericos"
+    "desc": [
+      "hardware",
+      "rede-wireless-sem-fio"
+    ],
+    "link": "https://www.kabum.com.br/hardware/rede-wireless-sem-fio"
   },
   {
-    "desc": "Computadores",
-    "link": "https://www.kabum.com.br/computadores"
+    "desc": [
+      "hardware",
+      "rede-wired-com-fio"
+    ],
+    "link": "https://www.kabum.com.br/hardware/rede-wired-com-fio"
   },
   {
-    "desc": "Placas de vídeo",
+    "desc": [
+      "hardware",
+      "placas-de-som"
+    ],
+    "link": "https://www.kabum.com.br/hardware/placas-de-som"
+  },
+  {
+    "desc": [
+      "hardware",
+      "processadores"
+    ],
+    "link": "https://www.kabum.com.br/hardware/processadores"
+  },
+  {
+    "desc": [
+      "hardware",
+      "placas-mae"
+    ],
+    "link": "https://www.kabum.com.br/hardware/placas-mae"
+  },
+  {
+    "desc": [
+      "hardware",
+      "switch-kvm"
+    ],
+    "link": "https://www.kabum.com.br/hardware/switch-kvm"
+  },
+  {
+    "desc": [
+      "hardware",
+      "streamer"
+    ],
+    "link": "https://www.kabum.com.br/hardware/streamer"
+  },
+  {
+    "desc": [
+      "hardware",
+      "modem"
+    ],
+    "link": "https://www.kabum.com.br/hardware/modem"
+  },
+  {
+    "desc": [
+      "hardware",
+      "memoria-ram"
+    ],
+    "link": "https://www.kabum.com.br/hardware/memoria-ram"
+  },
+  {
+    "desc": [
+      "hardware",
+      "fontes"
+    ],
+    "link": "https://www.kabum.com.br/hardware/fontes"
+  },
+  {
+    "desc": [
+      "hardware",
+      "drives"
+    ],
+    "link": "https://www.kabum.com.br/hardware/drives"
+  },
+  {
+    "desc": [
+      "hardware",
+      "disco-rigido-hd"
+    ],
+    "link": "https://www.kabum.com.br/hardware/disco-rigido-hd"
+  },
+  {
+    "desc": [
+      "hardware",
+      "coolers"
+    ],
+    "link": "https://www.kabum.com.br/hardware/coolers"
+  },
+  {
+    "desc": [
+      "hardware",
+      "placa-de-video-vga"
+    ],
     "link": "https://www.kabum.com.br/hardware/placa-de-video-vga"
   },
   {
-    "desc": "Monitores",
-    "link": "https://www.kabum.com.br/computadores/monitores"
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "alcatel"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/alcatel"
   },
   {
-    "desc": "Teclado e Mouse",
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "semp-go"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/semp-go"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "tcl"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/tcl"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "meizu"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/meizu"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "tp-link"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/tp-link"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "quantum"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/quantum"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "asus"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/asus"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "blu"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/blu"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "multilaser"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/multilaser"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "samsung"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/samsung"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "sony"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/sony"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "positivo"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/positivo"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "motorola"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/motorola"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "lg"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/lg"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "apple"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/apple"
+  },
+  {
+    "desc": [
+      "celular-telefone",
+      "smartphones",
+      "xiaomi"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone/smartphones/xiaomi"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "acessorios"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/acessorios"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "-mouse-gamer"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/-mouse-gamer"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "kit-gamer"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/kit-gamer"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "headset-gamer"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/headset-gamer"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "escritorio"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/escritorio"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "mesa-digitalizadora"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/mesa-digitalizadora"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "video-conferencia"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/video-conferencia"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "pen-drive"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/pen-drive"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "gabinetes"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/gabinetes"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "suprimentos"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/suprimentos"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "webcam"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/webcam"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "som-acessorios"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/som-acessorios"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "energia"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/energia"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "suportes"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/suportes"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "bolsas"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/bolsas"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "cabos"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/cabos"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "adaptadores"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/adaptadores"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-gamer"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/teclado-gamer"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-mouse"
+    ],
     "link": "https://www.kabum.com.br/perifericos/teclado-mouse"
   },
   {
-    "desc": "Gamer",
-    "link": "https://www.kabum.com.br/gamer"
+    "desc": [
+      "computadores",
+      "computadores"
+    ],
+    "link": "https://www.kabum.com.br/computadores/computadores"
   },
   {
-    "desc": "Eletrônicos",
-    "link": "https://www.kabum.com.br/eletronicos"
+    "desc": [
+      "computadores",
+      "computador-gamer"
+    ],
+    "link": "https://www.kabum.com.br/computadores/computador-gamer"
   },
   {
-    "desc": "Casa e Jardim",
-    "link": "https://www.kabum.com.br/casa-jardim"
+    "desc": [
+      "computadores",
+      "tablets-acessorios"
+    ],
+    "link": "https://www.kabum.com.br/computadores/tablets-acessorios"
   },
   {
-    "desc": "Beleza e Saúde",
-    "link": "https://www.kabum.com.br/beleza-saude"
-  },
-  {
-    "desc": "Presentes",
-    "link": "https://www.kabum.com.br/presentes"
-  },
-  {
-    "desc": "Smartphone",
-    "link": "https://www.kabum.com.br/celular-telefone"
-  },
-  {
-    "desc": "Brinquedos",
-    "link": "https://www.kabum.com.br/brinquedos"
-  },
-  {
-    "desc": "Geek",
-    "link": "https://www.kabum.com.br/geek"
-  },
-  {
-    "desc": "Smart Home",
-    "link": "https://www.kabum.com.br/smart-home"
-  },
-  {
-    "desc": "TV e Áudio",
-    "link": "https://www.kabum.com.br/tv-audio"
-  },
-  {
-    "desc": "Esporte e Lazer",
-    "link": "https://www.kabum.com.br/esporte-e-lazer"
-  },
-  {
-    "desc": "Automação",
-    "link": "https://www.kabum.com.br/automacao"
-  },
-  {
-    "desc": "Ferramentas",
-    "link": "https://www.kabum.com.br/ferramentas"
-  },
-  {
-    "desc": "Câmeras Digitais",
-    "link": "https://www.kabum.com.br/cameras-digitais"
-  },
-  {
-    "desc": "Tablets",
+    "desc": [
+      "computadores",
+      "tablets"
+    ],
     "link": "https://www.kabum.com.br/computadores/tablets"
   },
   {
-    "desc": "Instrumento Musical",
+    "desc": [
+      "computadores",
+      "softwares"
+    ],
+    "link": "https://www.kabum.com.br/computadores/softwares"
+  },
+  {
+    "desc": [
+      "computadores",
+      "servidores"
+    ],
+    "link": "https://www.kabum.com.br/computadores/servidores"
+  },
+  {
+    "desc": [
+      "computadores",
+      "scanners"
+    ],
+    "link": "https://www.kabum.com.br/computadores/scanners"
+  },
+  {
+    "desc": [
+      "computadores",
+      "impressoras"
+    ],
+    "link": "https://www.kabum.com.br/computadores/impressoras"
+  },
+  {
+    "desc": [
+      "computadores",
+      "notebooks-ultrabooks"
+    ],
+    "link": "https://www.kabum.com.br/computadores/notebooks-ultrabooks"
+  },
+  {
+    "desc": [
+      "computadores",
+      "notebook-gamer"
+    ],
+    "link": "https://www.kabum.com.br/computadores/notebook-gamer"
+  },
+  {
+    "desc": [
+      "computadores",
+      "monitores"
+    ],
+    "link": "https://www.kabum.com.br/computadores/monitores"
+  },
+  {
+    "desc": [
+      "hardware",
+      "placa-de-video-vga",
+      "acessorios"
+    ],
+    "link": "https://www.kabum.com.br/hardware/placa-de-video-vga/acessorios"
+  },
+  {
+    "desc": [
+      "hardware",
+      "placa-de-video-vga",
+      "amd-ati"
+    ],
+    "link": "https://www.kabum.com.br/hardware/placa-de-video-vga/amd-ati"
+  },
+  {
+    "desc": [
+      "hardware",
+      "placa-de-video-vga",
+      "nvidia"
+    ],
+    "link": "https://www.kabum.com.br/hardware/placa-de-video-vga/nvidia"
+  },
+  {
+    "desc": [
+      "computadores",
+      "monitores",
+      "lcd"
+    ],
+    "link": "https://www.kabum.com.br/computadores/monitores/lcd"
+  },
+  {
+    "desc": [
+      "computadores",
+      "monitores",
+      "led"
+    ],
+    "link": "https://www.kabum.com.br/computadores/monitores/led"
+  },
+  {
+    "desc": [
+      "computadores",
+      "monitores",
+      "gamers"
+    ],
+    "link": "https://www.kabum.com.br/computadores/monitores/gamers"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-mouse",
+      "mouse-com-fio"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/teclado-mouse/mouse-com-fio"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-mouse",
+      "mouse-sem-fio"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/teclado-mouse/mouse-sem-fio"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-mouse",
+      "teclado-com-fio"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/teclado-mouse/teclado-com-fio"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-mouse",
+      "teclado-sem-fio"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/teclado-mouse/teclado-sem-fio"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-mouse",
+      "teclado-mouse-combo"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/teclado-mouse/teclado-mouse-combo"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-mouse",
+      "mouse-pad"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/teclado-mouse/mouse-pad"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "teclado-mouse",
+      "acessorios"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/teclado-mouse/acessorios"
+  },
+  {
+    "desc": [
+      "gamer",
+      "playstation-3"
+    ],
+    "link": "https://www.kabum.com.br/gamer/playstation-3"
+  },
+  {
+    "desc": [
+      "gamer",
+      "nintendo-switch"
+    ],
+    "link": "https://www.kabum.com.br/gamer/nintendo-switch"
+  },
+  {
+    "desc": [
+      "gamer",
+      "cadeiras-gamer"
+    ],
+    "link": "https://www.kabum.com.br/gamer/cadeiras-gamer"
+  },
+  {
+    "desc": [
+      "gamer",
+      "tectoy"
+    ],
+    "link": "https://www.kabum.com.br/gamer/tectoy"
+  },
+  {
+    "desc": [
+      "gamer",
+      "e-sports"
+    ],
+    "link": "https://www.kabum.com.br/gamer/e-sports"
+  },
+  {
+    "desc": [
+      "gamer",
+      "pc"
+    ],
+    "link": "https://www.kabum.com.br/gamer/pc"
+  },
+  {
+    "desc": [
+      "gamer",
+      "playstation-4"
+    ],
+    "link": "https://www.kabum.com.br/gamer/playstation-4"
+  },
+  {
+    "desc": [
+      "gamer",
+      "xbox-one"
+    ],
+    "link": "https://www.kabum.com.br/gamer/xbox-one"
+  },
+  {
+    "desc": [
+      "gamer",
+      "xbox-360"
+    ],
+    "link": "https://www.kabum.com.br/gamer/xbox-360"
+  },
+  {
+    "desc": [
+      "gamer",
+      "mesa-gamer"
+    ],
+    "link": "https://www.kabum.com.br/gamer/mesa-gamer"
+  },
+  {
+    "desc": [
+      "hardware",
+      "disco-rigido-hd"
+    ],
+    "link": "https://www.kabum.com.br/hardware/disco-rigido-hd"
+  },
+  {
+    "desc": [
+      "cameras-digitais",
+      "cartoes-de-memoria"
+    ],
+    "link": "https://www.kabum.com.br/cameras-digitais/cartoes-de-memoria"
+  },
+  {
+    "desc": [
+      "perifericos",
+      "pen-drive"
+    ],
+    "link": "https://www.kabum.com.br/perifericos/pen-drive"
+  },
+  {
+    "desc": [
+      "hardware",
+      "ssd-2-5"
+    ],
+    "link": "https://www.kabum.com.br/hardware/ssd-2-5"
+  },
+  {
+    "desc": [
+      "eletronicos"
+    ],
+    "link": "https://www.kabum.com.br/eletronicos"
+  },
+  {
+    "desc": [
+      "casa-jardim"
+    ],
+    "link": "https://www.kabum.com.br/casa-jardim"
+  },
+  {
+    "desc": [
+      "beleza-saude"
+    ],
+    "link": "https://www.kabum.com.br/beleza-saude"
+  },
+  {
+    "desc": [
+      "presentes"
+    ],
+    "link": "https://www.kabum.com.br/presentes"
+  },
+  {
+    "desc": [
+      "celular-telefone"
+    ],
+    "link": "https://www.kabum.com.br/celular-telefone"
+  },
+  {
+    "desc": [
+      "brinquedos"
+    ],
+    "link": "https://www.kabum.com.br/brinquedos"
+  },
+  {
+    "desc": [
+      "geek"
+    ],
+    "link": "https://www.kabum.com.br/geek"
+  },
+  {
+    "desc": [
+      "smart-home"
+    ],
+    "link": "https://www.kabum.com.br/smart-home"
+  },
+  {
+    "desc": [
+      "tv-audio"
+    ],
+    "link": "https://www.kabum.com.br/tv-audio"
+  },
+  {
+    "desc": [
+      "esporte-e-lazer"
+    ],
+    "link": "https://www.kabum.com.br/esporte-e-lazer"
+  },
+  {
+    "desc": [
+      "automacao"
+    ],
+    "link": "https://www.kabum.com.br/automacao"
+  },
+  {
+    "desc": [
+      "ferramentas"
+    ],
+    "link": "https://www.kabum.com.br/ferramentas"
+  },
+  {
+    "desc": [
+      "cameras-digitais"
+    ],
+    "link": "https://www.kabum.com.br/cameras-digitais"
+  },
+  {
+    "desc": [
+      "computadores",
+      "tablets"
+    ],
+    "link": "https://www.kabum.com.br/computadores/tablets"
+  },
+  {
+    "desc": [
+      "instrumento-musical"
+    ],
     "link": "https://www.kabum.com.br/instrumento-musical"
   },
   {
-    "desc": "Relógios",
+    "desc": [
+      "relogios"
+    ],
     "link": "https://www.kabum.com.br/relogios"
   },
   {
-    "desc": "Segurança",
+    "desc": [
+      "seguranca"
+    ],
     "link": "https://www.kabum.com.br/seguranca"
   },
   {
-    "desc": "Automotivo",
+    "desc": [
+      "automotivo"
+    ],
     "link": "https://www.kabum.com.br/automotivo"
   },
   {
-    "desc": "Vídeo e Som",
+    "desc": [
+      "video-som"
+    ],
     "link": "https://www.kabum.com.br/video-som"
   },
   {
-    "desc": "Eletroportáteis",
+    "desc": [
+      "eletroportateis"
+    ],
     "link": "https://www.kabum.com.br/eletroportateis"
   },
   {
-    "desc": "Projetores",
+    "desc": [
+      "projetores"
+    ],
     "link": "https://www.kabum.com.br/projetores"
   }
 ]
